@@ -1,0 +1,64 @@
+1. Các cách nhúng CSS vào HTML.
+2. Selector là gì? Có bao nhiêu loại.
+3. Box model là gì?
+4. Có bao nhiêu loại position?
+5. Có bao nhiêu loại display?
+Các cách nhúng CSS vào HTML:
+
+Inline CSS: Sử dụng thuộc tính style trực tiếp trong các phần tử HTML.
+Internal CSS: Đặt mã CSS trong thẻ <style> bên trong phần <head> của tài liệu HTML.
+External CSS: Tạo một tập tin CSS riêng và sau đó nhúng nó vào trong tài liệu HTML bằng cách sử dụng thẻ <link> trong phần <head>.
+Selector là gì? Có bao nhiêu loại:
+
+Selector là một phần của CSS dùng để chọn phần tử HTML mà bạn muốn áp dụng các quy tắc CSS.
+Có nhiều loại selector trong CSS, bao gồm:
+Selector phần tử (Element Selector): Chọn tất cả các phần tử có cùng tên.
+Selector lớp (Class Selector): Chọn tất cả các phần tử có cùng class.
+Selector ID (ID Selector): Chọn phần tử có cùng ID.
+Selector kết hợp (Combination Selector): Kết hợp các loại selector khác với nhau.
+Selector thuộc tính (Attribute Selector): Chọn các phần tử dựa trên các thuộc tính của chúng.
+Selector dựa trên quan hệ (Descendant Selector): Chọn phần tử con của một phần tử khác.
+Box model là gì?:
+
+Box model là một khái niệm trong CSS để mô tả cách mà các phần tử HTML được định hình và bố trí trong trình duyệt.
+Nó bao gồm các thành phần chính: nội dung (content), phần padding, phần biên (border), và phần lề (margin).
+Có bao nhiêu loại position?:
+
+Có 5 loại position trong CSS:
+Static: Phần tử sử dụng vị trí mặc định, không thể được di chuyển.
+Relative: Phần tử di chuyển dựa trên vị trí mặc định của nó.
+Absolute: Phần tử di chuyển dựa trên vị trí của phần tử cha gần nhất có position khác static.
+Fixed: Phần tử luôn hiển thị ở vị trí cố định trên màn hình, không bị ảnh hưởng bởi cuộn trang.
+Sticky: Phần tử ban đầu hiển thị như static, nhưng sau khi cuộn qua một ngưỡng xác định, nó sẽ bắt đầu hoạt động như fixed.
+Có bao nhiêu loại display?:
+
+Có nhiều loại display trong CSS để xác định cách phần tử được hiển thị trong trình duyệt.
+Một số loại display phổ biến bao gồm: block, inline, inline-block, flex, grid, và none.
+CSS là viết tắt của "Cascading Style Sheets" (Bảng điều chỉnh kiểu dáng dạng nối tiếp). Đây là một ngôn ngữ lập trình được sử dụng để định dạng và trang trí các trang web HTML. CSS cho phép bạn kiểm soát cách mà các phần tử HTML được hiển thị trên trình duyệt web, bao gồm màu sắc, font chữ, kích thước, khoảng cách và bố trí của các phần tử.
+
+Với CSS, bạn có thể thực hiện các tác vụ như:
+
+Định dạng văn bản: Thay đổi kiểu, kích thước, màu sắc và khoảng cách của văn bản.
+Định dạng hình ảnh và đa phương tiện: Điều chỉnh kích thước, độ trong suốt và vị trí của hình ảnh và video.
+Bố trí trang web: Điều chỉnh vị trí, kích thước và khoảng cách của các phần tử trên trang web.
+Tạo hiệu ứng và hoạt ảnh: Thêm hiệu ứng chuyển động, chuyển đổi và hoạt ảnh vào các phần tử trên trang web.
+Phản ứng và Responsive Design: Tối ưu hóa trang web để hiển thị đẹp và phản ứng trên các thiết bị khác nhau, từ máy tính để bàn đến điện thoại di động.
+CSS thường được sử dụng cùng với HTML và JavaScript để tạo ra các trang web đẹp và tương tác.
+
+Trong CSS, thuộc tính display được sử dụng để xác định cách mà một phần tử HTML được hiển thị trên trang web. Thuộc tính display có thể nhận một số giá trị để xác định kiểu hiển thị của phần tử.
+
+Dưới đây là một số giá trị phổ biến của thuộc tính display và ý nghĩa của chúng:
+
+block: Phần tử được hiển thị như một khối và chiếm toàn bộ chiều rộng của phần tử cha. Mỗi phần tử block bắt đầu trên một dòng mới.
+
+inline: Phần tử được hiển thị như một phần tử inline và không chèn xuống dòng mới. Chiều rộng và chiều cao của phần tử inline chỉ phụ thuộc vào nội dung bên trong.
+
+inline-block: Phần tử được hiển thị như một phần tử inline, nhưng vẫn giữ tính chất của phần tử block, cho phép bạn điều chỉnh kích thước và áp dụng các thuộc tính block như padding, margin.
+
+none: Phần tử sẽ không được hiển thị trên trang web. Phần tử không chiếm không gian trên trang và sẽ không ảnh hưởng đến bố cục của trang.
+
+flex: Phần tử được hiển thị như một phần tử linh hoạt (flex item) và sẽ tuân thủ các thuộc tính và quy tắc của một mô hình linh hoạt (flexbox).
+
+grid: Phần tử được hiển thị như một phần tử grid (lưới) và sẽ tuân thủ các thuộc tính và quy tắc của một mô hình lưới (grid).
+
+Thuộc tính display rất quan trọng trong CSS vì nó quyết định cách mà các phần tử được bố trí và hiển thị trên trang web.
